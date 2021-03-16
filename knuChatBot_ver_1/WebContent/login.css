@@ -10,11 +10,12 @@
 
 .nav{
     top: 150px;
-    width: 250px;
+    text-align: center;
+    width: 140px;
     position: absolute;
-    left: 50%; transform: translateX(-50%);
+    left: 50%; transform: translateX(-80%);
     background: #BDD7EE;
-    color: #fff;
+    color: black;
     padding: 13px;
     border-radius: 20rem;
     font-size: 11pt;
@@ -37,25 +38,29 @@
 .ID{
     top: 210px;
     position: absolute;
-    left: 50%; transform: translateX(-50%);
+    left: 50%; transform: translateX(-30%);
     background: #8FAADC;
     color: #fff;
     padding: 13px;
     border-radius: 20rem;
     font-size: 11pt;
     box-shadow: 2px 2px 3px #d1d1d1;
+    outline: none;
+    border: none;
 }
 
 .PW{
     top: 265px;
     position: absolute;
-    left: 50%; transform: translateX(-50%);
+    left: 50%; transform: translateX(-30%);
     background: #8FAADC;
     color: #fff;
     padding: 13px;
     border-radius: 20rem;
     font-size: 11pt;
     box-shadow: 2px 2px 3px #d1d1d1;
+    outline: none;
+    border: none;
 }
 
 input::placeholder{
@@ -68,6 +73,13 @@ input::placeholder{
     left: 50%; transform: translateX(-120%);
     background: #BDD7EE;
     border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .registerbtn{
@@ -76,4 +88,15 @@ input::placeholder{
     left: 50%; transform: translateX(-0%);
     background: #BDD7EE;
     border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.registerbtn:hover ,.loginbtn:hover{
+    background-color: #A2C7E8;
 }
